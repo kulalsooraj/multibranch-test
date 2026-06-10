@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Branch Test') {
             steps {
-                echo ' the branch is ${env.BRANCH_NAME}
+                echo "The branch is ${env.BRANCH_NAME}"
             }
         }
     }
